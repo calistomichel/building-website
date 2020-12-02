@@ -1,3 +1,3 @@
 # Building Website
 
-Plantilla sencilla para indicar la construcción del sitio web.
+Plantilla sencilla para indicar la construcción de un sitio web.
