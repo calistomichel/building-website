@@ -1,3 +1,7 @@
+<?php
+	$url = getenv('URL_WEB');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +47,7 @@
 <body>
 	<div class="flex-center position-ref full-height">
 		<div class="title">Building Website</div>
-		<div class="url" style="padding: 10px;"><a href="#" target="_blank">Another Website</a></div>
+		<div class="url" style="padding: 10px;"><a href="<?php echo $url; ?>" target="_blank">Another Website</a></div>
 	</div>
 </body>
 </html>
